@@ -7,8 +7,8 @@ import React, { useState } from 'react';
 // }
 
 const imageUrls = [
-  'https://thumbs.dreamstime.com/b/bunch-bananas-6175887.jpg?w=768',
-  'https://thumbs.dreamstime.com/z/full-body-brown-chicken-hen-standing-isolated-white-backgroun-background-use-farm-animals-livestock-theme-49741285.jpg?ct=jpeg', 
+  {url:'https://thumbs.dreamstime.com/b/bunch-bananas-6175887.jpg?w=768', type: 'banana'},
+  {url:'https://thumbs.dreamstime.com/z/full-body-brown-chicken-hen-standing-isolated-white-backgroun-background-use-farm-animals-livestock-theme-49741285.jpg?ct=jpeg', type: 'chicken'} 
 ];
 
 function getRandomImage() {
